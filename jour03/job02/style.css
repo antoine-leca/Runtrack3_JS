@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    gap: 2px;
+    button {
+        height: fit-content;
+    }
+}
