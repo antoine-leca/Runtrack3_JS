@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    main {
+        height: 100%;
+        width: 100% !important;
+        background-color: #dcdcdc;
+        #secH {
+            width: 100% !important;
+            #carteG {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        #secBar {
+            width: 60%;
+            #p9000 {
+                padding-right: 80px;
+            }
+        }
+        #bigSectionB {
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    #p9000 {
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+}
