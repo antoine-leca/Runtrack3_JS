@@ -1,0 +1,21 @@
+* {
+    background-color: #88c1d0;
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+    * {
+        background-color: #ffca4b;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1680px) {
+    * {
+        background-color: #275fa0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    * {
+        background-color: #ffffff;
+    }
+}
