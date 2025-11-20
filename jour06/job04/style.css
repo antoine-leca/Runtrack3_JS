@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
+section {
+    width: 25%;
+    height: 150px;
+    background-color: #000000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1599px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 50%;
+    }
+    .links {
+        display: flex;
+        list-style: none;
+        gap: 16px;
+        width: fit-content;
+        background-color: rgb(128, 142, 155);
+    }
+    section {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    main {
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        opacity: 0;
+    }
+    .hamburger-logo {
+        font-size: 30px;
+        background-color: aliceblue;
+    }
+    .menu {
+        position: fixed;
+        width: 400px;
+        height: 100px;
+        background-color: bisque;
+    }
+    nav {
+        display: flex;
+    }
+    section {
+        width: 100%;
+    }
+}
