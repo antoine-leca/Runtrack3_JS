@@ -1,0 +1,23 @@
+body {
+    header {
+        height: 60px;
+        nav {
+            img {
+                height: 100%;
+                width: 45%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:420px) {
+    body {
+        header {
+            nav {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
